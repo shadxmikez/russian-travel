@@ -9,7 +9,7 @@
   border: 1px solid red;
   display: flex;
   flex-direction: column;
-  font-family: "Inter", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Inter', 'Tahoma', 'Arial', 'Geneva', 'Verdana', sans-serif;
   text-rendering: optimizeLegibility;
   margin: 0 auto;
   -webkit-font-smoothing: antialiased;
