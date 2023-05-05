@@ -7,6 +7,11 @@
 * Подключил шрифты с папки fonts.
 
 
+### Ссылки на проект GITHUB и GITHUBPages
+
+* Ссылка на проект : https://github.com/shadxmikez/russian-travel.git
+* Ссылка на сайт : https://shadxmikez.github.io/russian-travel/
+
 
 
 
