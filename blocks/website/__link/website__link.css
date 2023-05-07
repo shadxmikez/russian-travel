@@ -1,0 +1,10 @@
+.website__link {
+	cursor: pointer;
+	color: white;
+	font-size: 18px;
+	cursor: pointer;transition: opacity .7s ease;
+}
+
+.website__link:hover {
+	opacity: 0.6;
+}
