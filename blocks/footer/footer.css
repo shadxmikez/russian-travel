@@ -6,3 +6,17 @@
 	flex-wrap: wrap;
 	width: 100%;
 }
+
+@media screen and (max-width:740px) {
+	.footer {
+		flex-direction: column;
+		align-items: start;
+		gap: 48px;
+	}
+}
+
+@media screen and (max-width: 500px) {
+	.footer {
+		margin: 64px 0 24px
+	}
+}

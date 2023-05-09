@@ -5,3 +5,42 @@
 	grid-template-rows: auto;
 	gap: 48px 40px;
 }
+
+@media screen and (max-width:1280px) {
+	.place {
+		padding-left: 48px;
+		padding-right: 48px;
+		gap:48px 40px;
+	}
+}
+
+@media screen and (max-width:1022px) {
+	.place {
+		padding-left: 24px;
+		padding-right: 24px;
+		grid-template-columns: 340px 1fr;
+		gap:48px 32px;
+	}
+}
+
+@media screen and (max-width:768px) {
+	.place {
+		padding-left: 24px;
+		padding-right: 24px;
+		grid-template-columns: 340px 1fr;
+		gap:48px 28px;
+		
+	}
+}
+
+@media screen and (max-width:700px) {
+	.place {
+		display: flex;
+		flex-direction: column;
+		row-gap: 0px;
+		padding-left: 0px;
+		padding-right: 0px;
+
+	}
+}
+

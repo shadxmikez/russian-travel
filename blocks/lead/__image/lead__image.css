@@ -3,3 +3,23 @@
 	object-fit: cover;
 	padding-top: 64px;
 }
+
+
+@media screen and (max-width:1024px){
+	.lead__image {
+		max-width: 100%;
+	}
+}
+
+@media screen and (max-width:974px) {
+	.lead__image {
+		max-width: 100%;
+	}
+}
+
+@media screen and (max-width:768px) {
+	.lead__image {
+		max-width: 100%;
+		padding-top: 56px;
+	}
+}

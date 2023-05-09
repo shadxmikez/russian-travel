@@ -8,3 +8,9 @@
 .website__link:hover {
 	opacity: 0.6;
 }
+
+@media screen and (max-width: 700px) {
+	.website__link {
+		padding-bottom: 32px;
+	}
+}

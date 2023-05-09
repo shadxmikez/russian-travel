@@ -5,3 +5,27 @@
 	line-height: 76px;
 	margin: 0;
 }
+
+
+@media (max-width: 1279px) {
+  .place__title {
+    max-width: 440px;
+  }
+}
+
+@media (max-width: 1023px) {
+  .place__title {
+    max-width: 330px;
+    font-size: calc(42px + (30 + 30 * .7) * (100vw - 768px) / 1024);
+    line-height: calc(46 / 42 * 100%);
+  }
+}
+
+@media (max-width: 767px) {
+  .place__title {
+    font-size: calc(32px + (10 + 10 * .7) * (100vw - 320px) / 768);
+    line-height: calc(35 / 32 * 100%);
+    padding-left: 16px;
+    padding-bottom: 32px;
+  }
+}

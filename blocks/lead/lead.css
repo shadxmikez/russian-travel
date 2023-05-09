@@ -4,3 +4,14 @@
 	align-items: center;
 	margin: 56px 148px 0;
 }
+@media screen and (max-width:1024px) {
+	.lead {
+		margin: 48px 48px 0;
+	}
+}
+
+@media screen and (max-width:768px) {
+	.lead {
+		margin: 48px 0px 0;
+	}
+}

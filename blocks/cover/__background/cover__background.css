@@ -16,3 +16,22 @@
 	z-index: 2;
 }
 
+@media screen and (max-width:1024px){
+	.cover__background {
+		max-width: 1024px;
+		min-height: 640px;
+	}
+}
+
+@media screen and (max-width:768px) {
+	.cover__background {
+		min-height: calc(200px + (280 + 280 * .7) * (100vw - 320px) / 768);
+	}
+}
+
+@media (max-width: 500px) {
+  .cover__background {
+    min-height: calc(200px + (280 + 280 * .7) * (100vw - 320px) / 500);
+  }
+}
+

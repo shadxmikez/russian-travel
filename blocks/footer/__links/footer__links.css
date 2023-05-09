@@ -6,3 +6,20 @@
 	display: flex;
 	gap: 18px;
 }
+
+@media screen and (max-width:768px) {
+	.footer__links {
+		padding: 0 0 0 24px;
+	}
+}
+
+
+@media screen and (max-width: 500px) {
+  .footer__links {
+    max-width: 186px;
+    line-height: 100%;
+    flex-direction: column;
+    row-gap: 32px;
+		padding: 0 0 0 16px;
+  }
+}
