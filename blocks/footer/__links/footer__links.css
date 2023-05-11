@@ -14,12 +14,12 @@
 }
 
 
-@media screen and (max-width: 500px) {
-  .footer__links {
-    max-width: 186px;
-    line-height: 100%;
-    flex-direction: column;
-    row-gap: 32px;
+@media screen and (max-width: 743px) {
+	.footer__links {
+		max-width: 186px;
+		line-height: 100%;
+		flex-direction: column;
+		row-gap: 32px;
 		padding: 0 0 0 16px;
-  }
+	}
 }

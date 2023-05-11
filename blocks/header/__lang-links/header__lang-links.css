@@ -1,10 +1,16 @@
 .header__lang-links {
-	text-decoration: none;
-	color: white;
-	cursor: pointer;
-	transition: opacity .7s ease;
+	margin: 0;
+	list-style-type: none;
+	display: flex;
+	flex-wrap: wrap;
+	column-gap: 18px;
+	font-size: 24px;
+	padding-top: 18px;
 }
 
-.header__lang-links:hover {
-	opacity: 0.6;
+@media screen and (max-width:560px) {
+	.header__lang-links {
+		font-size: 18px;
+		padding-top: 14px;
+	}
 }
