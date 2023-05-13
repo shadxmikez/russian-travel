@@ -10,13 +10,13 @@
 	.place {
 		gap: 52px 32px;
 		grid-template-columns: 440px 1fr;
+		padding-left: 48px;
+		padding-right: 48px;
 	}
 }
 
-@media screen and (max-width:1022px) {
+@media screen and (max-width:980px) {
 	.place {
-		padding-left: 24px;
-		padding-right: 24px;
 		grid-template-columns: 340px 1fr;
 		gap: 48px 32px;
 	}
@@ -25,19 +25,16 @@
 @media screen and (max-width:768px) {
 	.place {
 		gap: 48px 28px;
+		padding-left: 24px;
+		padding-right: 24px;
 	}
 }
 
-@media screen and (max-width:667px) {
+@media screen and (max-width:700px) {
 	.place {
 		display: flex;
 		flex-direction: column;
 		row-gap: 0;
-	}
-}
-
-@media screen and (max-width:415px) {
-	.place {
 		padding: 0;
 	}
 }
