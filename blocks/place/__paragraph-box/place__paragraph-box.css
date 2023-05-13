@@ -12,8 +12,15 @@
 
 @media screen and (max-width: 700px) {
 	.place__paragraph-box {
+		padding-left: 24px;
+		padding-right: 24px;
+		padding-top: 32px;
+	}
+}
+
+@media screen and (max-width: 410px) {
+	.place__paragraph-box {
 		padding-left: 16px;
 		padding-right: 16px;
-		padding-top: 32px;
 	}
 }
